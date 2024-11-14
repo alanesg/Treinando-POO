@@ -1,3 +1,4 @@
+//o objetivo é cadastrar informações de um cachorro.
 //Definindo a classe cachorro
 class Cachorro{
  constructor (nome, idade, raca) {
