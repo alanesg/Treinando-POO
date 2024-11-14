@@ -1,3 +1,4 @@
+//objetivo é calcular o imc de uma pessoa.
 // Definindo a classe;
 // Definindo propriedades;
 class Pessoa {
