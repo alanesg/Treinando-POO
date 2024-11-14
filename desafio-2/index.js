@@ -1,3 +1,4 @@
+// Objetivo: Conta bancária. dizer o valor do depósito e saque.
 //definindo a classe
 class contaBancaria {
     constructor(titular, saldoInicial) {
