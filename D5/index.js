@@ -15,17 +15,17 @@ class Produto {
 
     vender(qtd) {
         if (this.quantidade >= qtd) {
-            this.quantidade == qtd;
+            this.quantidade -= qtd;
         } else {
             console.log("ESTOQUE INSUFICIENTE.");
         }
     }
     informacoes() {
-        return Produto `${this.nome}, Preço: R$ ${this.preco.toFixed(2)}, Quantidade em estoque:  ${this.quantidade}`;
+        return `${this.nome}, Preço: R$ ${this.preco.toFixed(2)}, Quantidade em estoque:  ${this.quantidade}`;
     }
 
 }
-
+// criando um objeto. 
 const produto1 = new Produto('Bola', 3.00, 50);
 console.log(produto1.informacoes());
 
