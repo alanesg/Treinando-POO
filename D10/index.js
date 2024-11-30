@@ -12,7 +12,7 @@ class Gato {
     //métodos
 
     nomeGato() { //método gato
-        console.log(`o nome do gato é ${this.nome}`);
+        console.log (`o nome do gato é ${this.nome}`);
     }
 
     idadeGato() { // método para idade do gato
